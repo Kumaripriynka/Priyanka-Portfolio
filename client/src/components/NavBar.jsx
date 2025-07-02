@@ -3,7 +3,7 @@ import { useState, useContext, useEffect } from 'react';
 import { FaMoon, FaSun, FaBars, FaTimes } from 'react-icons/fa';
 import { ThemeContext } from '../context/ThemeContext';
 
-const Navbar = () => {
+const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { theme, toggleTheme } = useContext(ThemeContext);
   const [activeLink, setActiveLink] = useState('Home');
@@ -190,4 +190,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
