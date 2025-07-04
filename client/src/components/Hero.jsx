@@ -257,7 +257,7 @@ const Hero = () => {
             >
               {/* Clean PNG Image */}
               <img 
-                src="../src/priyanka_pic.png" 
+                src="/projects-images/priyanka_pic.png" 
                 alt="Priyanka Singh - Full Stack Developer" 
                 className="w-80 h-96 md:w-96 md:h-[28rem] object-cover object-center rounded-2xl shadow-2xl"
               />
