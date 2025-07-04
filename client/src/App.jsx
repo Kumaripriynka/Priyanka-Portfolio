@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { ThemeProvider } from './context/ThemeContext';
-import Navbar from './components/Navbar';
+import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -28,7 +28,7 @@ function App() {
             style={{ scaleX, transformOrigin: '0%' }}
           />
           
-          <Navbar />
+          <NavBar />
           <Hero />
           <About />
           <Skills />
