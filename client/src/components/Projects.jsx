@@ -20,8 +20,8 @@ const projects = [{
   title: "Hotel Booking Website",
   description: "Built a responsive hotel booking platform with seamless authentication using Clerk’s prebuilt UI components. Developed a Node.js and Express backend to manage room listings and booking logic. Styled the frontend with Tailwind CSS for a modern and intuitive user experience.",
   technologies: ["Clerk", "Node.js", "Express.js", "Tailwind CSS", "React"],
-  link: "#",
-  github: "#",
+  link: "https://book-hotel-web.netlify.app/",
+  github: "https://github.com/Kumaripriynka/Hotel_Booking_website",
   image: "/projects-images/hotel-booking.png"
 }
 ,{
